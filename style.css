@@ -163,3 +163,49 @@ body {
 .stats-item:hover{
   transform: translateY(-10px);
 }
+
+/* skills section */
+
+.skills {
+  padding: 100px 50px;
+}
+
+.skills-cont{
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.skill-item{
+  margin-bottom: 20px;
+}
+.skill-info{
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.skill-bar {
+  height: 12px;
+  background:  rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+}
+.progress-bar{
+  height: 100%;
+  background: linear-gradient(45deg, #ff8a00, #e52e71);
+   border-radius: 8px;
+   width: 0px;
+}
+.html-css{
+  animation: fillHtml 1s ease forwards;
+}
+
+@keyframes fillHtml {
+ 0% {
+  width: 0%;
+ } 100%{
+  width: 90%;
+ }
+}
+
+
